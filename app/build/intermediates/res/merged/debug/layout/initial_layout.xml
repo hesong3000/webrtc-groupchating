@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="5px"
+        android:layout_width="match_parent"
+        android:layout_height="32sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:text="远端地址:"
+            />
+    
+        <EditText
+            android:id="@+id/remoteIP"
+            android:layout_marginLeft="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shadowColor="#ffffff"
+            android:singleLine="true"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:text="远端音频接收端口:"
+            />
+
+        <EditText
+            android:id="@+id/remotePort_A"
+            android:layout_marginLeft="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shadowColor="#ffffff"
+            android:singleLine="true"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:text="远端视频接收端口:"
+            />
+
+        <EditText
+            android:id="@+id/remotePort_V"
+            android:layout_marginLeft="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shadowColor="#ffffff"
+            android:singleLine="true"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:text="本地音频接收端口:"
+            />
+
+        <EditText
+            android:id="@+id/localPort_A"
+            android:layout_marginLeft="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shadowColor="#ffffff"
+            android:singleLine="true"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:text="本地视频接收端口:"
+            />
+
+        <EditText
+            android:id="@+id/localPort_V"
+            android:layout_marginLeft="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shadowColor="#ffffff"
+            android:singleLine="true"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:text="音频SSRC:"
+            />
+
+        <EditText
+            android:id="@+id/Audio_SSRC"
+            android:layout_marginLeft="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shadowColor="#ffffff"
+            android:singleLine="true"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:text="视频SSRC:"
+            />
+
+        <EditText
+            android:id="@+id/Video_SSRC"
+            android:layout_marginLeft="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shadowColor="#ffffff"
+            android:singleLine="true"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/linkVideoCallView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="videoCall"/>
+    <Button
+        android:id="@+id/avGroupChatSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="avGroupChatSetting"/>
+    <Button
+        android:id="@+id/startActivityForResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="startActivityForResult"/>
+</LinearLayout>

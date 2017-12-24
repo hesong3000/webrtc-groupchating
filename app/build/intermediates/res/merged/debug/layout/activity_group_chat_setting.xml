@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="android.webrtc.activity.GroupChatSettingActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="5px"
+        android:layout_width="match_parent"
+        android:layout_height="32sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:text="本地通道发送地址:"
+            />
+
+        <EditText
+            android:id="@+id/avremoteIP"
+            android:layout_marginLeft="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#ffffff"
+            android:singleLine="true"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5px"
+        android:layout_width="match_parent"
+        android:layout_height="32sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:text="本地通道音频发送端口:"
+            />
+
+        <EditText
+            android:id="@+id/audioRecvPort"
+            android:layout_marginLeft="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#ffffff"
+            android:singleLine="true"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5px"
+        android:layout_width="match_parent"
+        android:layout_height="32sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:text="本地通道视频发送端口:"
+            />
+
+        <EditText
+            android:id="@+id/videoRecvPort"
+            android:layout_marginLeft="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#ffffff"
+            android:singleLine="true"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5px"
+        android:layout_width="match_parent"
+        android:layout_height="32sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:text="本地通道音频SSRC:"
+            />
+
+        <EditText
+            android:id="@+id/audioSendSSRC"
+            android:layout_marginLeft="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#ffffff"
+            android:singleLine="true"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5px"
+        android:layout_width="match_parent"
+        android:layout_height="32sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:text="本地通道视频SSRC:"
+            />
+
+        <EditText
+            android:id="@+id/videoSendSSRC"
+            android:layout_marginLeft="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#ffffff"
+            android:singleLine="true"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5px"
+        android:layout_width="match_parent"
+        android:layout_height="32sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:text="通道1音频接收端口:"
+            />
+
+        <EditText
+            android:id="@+id/channel1_audioRecvPort"
+            android:layout_marginLeft="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#ffffff"
+            android:singleLine="true"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5px"
+        android:layout_width="match_parent"
+        android:layout_height="32sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:text="通道1视频接收端口:"
+            />
+
+        <EditText
+            android:id="@+id/channel1_videoRecvPort"
+            android:layout_marginLeft="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#ffffff"
+            android:singleLine="true"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5px"
+        android:layout_width="match_parent"
+        android:layout_height="32sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:text="通道2音频接收端口:"
+            />
+
+        <EditText
+            android:id="@+id/channel2_audioRecvPort"
+            android:layout_marginLeft="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#ffffff"
+            android:singleLine="true"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5px"
+        android:layout_width="match_parent"
+        android:layout_height="32sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:text="通道2视频接收端口:"
+            />
+
+        <EditText
+            android:id="@+id/channel2_videoRecvPort"
+            android:layout_marginLeft="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#ffffff"
+            android:singleLine="true"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/AVGroupChatActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AVGroupChatActivity"/>
+
+    <Button
+        android:id="@+id/startLocalCapture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="startLocalCapture"/>
+
+    <Button
+        android:id="@+id/invitingUIDemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="invitingUIDemo"/>
+
+    <Button
+        android:id="@+id/gifOverLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gifOverLayout"/>
+</LinearLayout>

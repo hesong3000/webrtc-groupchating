@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTheme">
+        <attr format="reference" name="gifViewStyle"/>
+    </declare-styleable>
+    <declare-styleable name="GifView">
+        <attr format="reference" name="gif"/>
+        <attr format="boolean" name="paused"/>
+    </declare-styleable>
+    <declare-styleable name="NineGridImageView">
+        <attr format="dimension" name="imgGap"/>
+    </declare-styleable>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+</resources>

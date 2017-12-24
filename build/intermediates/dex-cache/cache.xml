@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\internal_impl-23.3.0_ec0b2e8550d586785f5ddef218bc148f61452666.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\exploded-aar\homhomlin.lib\frescoimageview\1.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="560dca1bf38bd648448d344baee0cb005f424c58">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\homhomlin.lib-frescoimageview-1.2.0_9d616a5a045ec6e64a2a5249825c911d9e8aa303.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\libs\dom4j-1.6.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5d3ccc056b6f056dbf0dddfdf43894b9065a8f94">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\dom4j-1.6.1_d0d83ffa6ce3c1c019ef81be7295cd850a582f7b.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.3.0_6eaf6e3b54d5cff972c494a400b3694f1acd2770.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="412fb61f21c5493f2cc128f97feafa7794d62e4d">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\instant-run_79074df5e0c84176920d8155d8efa4b666a4822b.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp\0.9.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0c470319faf4ceb732c9e980b8fd54d3033ca972">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp-0.9.0_e5746ccbf1bda0015beb6a7d9d043a4ccfe44604.jar" />
+    </item>
+    <item
+        jar="C:\Users\kai\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4_36977a48a0f93c4cabf4d58c9dfed7a4a53fd646.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\libs\microlog4android-1.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2612759eba0e1da035e939922440bb4ef83972df">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\microlog4android-1.1_cbe920068e79bde9f4006d6ddcc31b0bb5f7ce30.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.1.0_f1ef273e4464a4a9ce185e6eceb70ffe4f48355a.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\libs\AndroidSub.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="faeca9863e0c6ccf146dcede5fe8e30f50805f71">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\AndroidSub_72994660b3d1a31b5d3d33b8dbdc0e71129d1cfd.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.9.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="39bd9f893c75eac9e76559cc4e96af6e417afdc5">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-0.9.0_aad1a2d63c2051a10d10bcbec6f2299013c8b59c.jar" />
+    </item>
+    <item
+        jar="C:\Users\kai\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.6.0\212387a39088ecd3daff8e3bfc3bdc4123e33c67\okhttp-2.6.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="212387a39088ecd3daff8e3bfc3bdc4123e33c67">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\okhttp-2.6.0_c677b0781a388b91381cabdd894964858cc5f36c.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.3.0_b7d375336453d55ec0d8376d50c73fa9ba563508.jar" />
+    </item>
+    <item
+        jar="C:\Users\kai\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\okio-1.6.0_d13cd106d8580b87fd6aa2ec031057c2e888c45c.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\exploded-aar\pl.droidsonroids.gif\android-gif-drawable\1.2.3\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="75d15557ff7531e59b01362d46bb06dd59c5f971">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\pl.droidsonroids.gif-android-gif-drawable-1.2.3_5eafcd61d8c48d3566e77c584d57685e9232fc12.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\libs\audio_device_module_java.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2a3ccc19d691efc44819ac24a67cbdd8460b27c5">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\audio_device_module_java_ff98f860ab055e8761f37bc4fe8a184e7845a4b8.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="346f42e3901b0185c9692ebdd97481d15497a89e">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_13db239dd0391306e8a61acc850c0ac90b12b323.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.3.0_2f7a9bc11ab37a76f4977207a6f20397b583332a.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\libs\video_capture_module_java.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f2931e6d97658aae9c4f68b981f13f62822ba1cd">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\video_capture_module_java_4cf23c81b8504c085b501c6ec33b1192d2ef19c4.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.9.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3158c15bb0ae97575debdb40cfcd8f0f9f244526">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-0.9.0_65bda957c81e8cb058a26f39c83f01d6754b7a57.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.3.0_3957c23d63e79b43837f3de92fcb0f189366a623.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.3.0_de47a91b2d566a738583ca53751f02af8b8891b7.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.9.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ca51025f4a58fc7fb6cfaa85e7d09b7ae47e6187">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-0.9.0_2d036419f8eb66274a5e5560d570b332395a784d.jar" />
+    </item>
+    <item
+        jar="C:\Users\kai\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\support-annotations-23.3.0_96b21f42e97cddbfffd7b453d6fc6efbacbadb2e.jar" />
+    </item>
+    <item
+        jar="C:\Users\kai\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\library-2.4.0_7f7119f5463754ddd856a4d3b0e2dcce126da2f4.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.1.0_c7a6ecf096d931fb524aa13919440179dad78bb1.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.3.0_65616ff2fa814c7526a91cba973f6d144c11111f.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.9.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="57528b5deee77bfa2188fc279fd45066366f17f5">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-0.9.0_bbc7f5b13612405fbc076cb5cc9346fc883c8132.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.9.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4ee95617ab850030c51486d02bc9d207b14419c6">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-0.9.0_078d6c76a504f378aec6251cd9b737818fc83afe.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\libs\video_render_module_java.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f8afba444790712f47d9daf6df4b0121c030ddb9">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\video_render_module_java_418998bfed8a593b0b663a30aae93edfb57d8c02.jar" />
+    </item>
+    <item
+        jar="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\exploded-aar\homhomlin.lib\apsts\1.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4c8abf56bea29a6a029f78a854f8fe0c942e7e5d">
+        <dex dex="D:\andriodWebRTC\webrtc1112-groupchating\app\build\intermediates\pre-dexed\debug\homhomlin.lib-apsts-1.4.0_eb3b08a66aad308364b6392bd425c89cca004096.jar" />
+    </item>
+
+</items>

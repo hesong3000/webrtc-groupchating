@@ -1,0 +1,53 @@
+package com.ichat.Interface;
+
+/**
+ * Created by fwj on 2016/7/18.
+ */
+
+//枚举项的值从0开始递增
+public enum MessageType {
+   LOGIN_MSG_OK,
+   LOGIN_MSG_FAILED,
+   LOGOUT_MSG_OK,
+   LOGOUT_MSG_FAILED,
+   FRIENDLIST_MSG,
+   INITE_MSG,
+   GETUSERINFOR_MSG_OK,
+   GETUSERINFO_MSG_FAILED,
+   FRIENDLIST_MSG_OK,
+   FRIENDLIST_MSG_FAILED,
+   AVATARDOWNLOAD_MSG_OK,
+   AVATARDOWNLOAD_MSG_FAILED,
+   RECENTUSER_MSG,
+   MODIFYUSERINFO_MSG_OK,
+   MODIFYUSERINFO_MSG_FAILED,
+   RECVKICK_MSG,
+   GETUSERINFOBYUSERID_MSG_OK,
+   GETUSERINFOBYUSERID_MSG_FAILED,
+   GETUSERINFOBYACCOUNT_MSG_OK,
+   GETUSERINFOBYACCOUNT_MSG_FAILED,
+   RECVREQUESTFRIEDN_MSG,
+   REQUESTFRIENDTMPCHAT_MSG,
+   REQUESTFRIENDREFUSE_MSG,
+   REQUESTFRIENNDACCEPT_MSG,
+
+   CHAT_MESSAGE_RECIVE,
+   CHAT_MESSAGE_SEND_RESPONSE,
+
+   //add by wk b-------
+   RECVACCEPTVIDEO_MSG,    //视频聊天-接受邀请回调（主叫方法）
+   RECVREFUSEVIDEO_MSG,    //视频聊天-拒绝邀请回调（主叫方法）
+   RECVINVITEVIDEO_MSG,    //视频聊天-视频请求回调（被叫方法）
+   RECVCANCELVIDEO_MSG,    //视频聊天-视频取消回调（被叫方法）
+   OPENAUDIODEVICE_MSG,    //音视频聊天-打开音频设备回调（主被叫方法）
+   OPENVIDEODEVICE_MSG,    //视频聊天-打开视频设备回调（主被叫方法）
+   RECVCLOSEVIDEO_MSG,     //视频聊天-结束视频聊天回调（主被叫方法）
+
+   RECVINVITEVOICE_MSG,    //音频聊天-音频请求回调
+   RECVACCEPTVOICE_MSG,    //音频聊天-接受邀请回调
+   RECVREFUSEVOICE_MSG,    //音频聊天-拒绝邀请回调
+   RECVCANCELVOICE_MSG,    //音频聊天-音频取消回调
+   RECVCLOSEVOICE_MSG,     //音频聊天-结束音频聊天回调
+   //add by wk e-------
+};
+

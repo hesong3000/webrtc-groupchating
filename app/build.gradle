@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+    defaultConfig {
+        applicationId "org.webrtc.mywebrtcdemo"
+        minSdkVersion 16
+        targetSdkVersion 23
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_7
+        sourceCompatibility JavaVersion.VERSION_1_7
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/audio_device_module_java.jar')
+    compile files('libs/video_capture_module_java.jar')
+    compile files('libs/video_render_module_java.jar')
+    compile files('libs/AndroidSub.jar')
+    compile 'com.android.support:support-v4:23.3.0'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'com.android.support:design:23.3.0'
+    compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+    compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+    compile 'homhomlin.lib:frescoimageview:1.2.0'
+    compile 'com.facebook.fresco:fresco:0.9.0'
+    compile 'com.facebook.fresco:imagepipeline-okhttp:0.9.0'
+    compile 'homhomlin.lib:apsts:1.4.0'
+    compile files('libs/dom4j-1.6.1.jar')
+    compile 'pl.droidsonroids.gif:android-gif-drawable:1.2.3'
+    compile files('libs/microlog4android-1.1.jar')
+}

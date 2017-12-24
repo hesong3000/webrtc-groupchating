@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\andriodWebRTC\\webrtc1112-groupchating\\app\\build\\intermediates\\res\\merged\\debug\\raw\\beep.ogg",
+        "source": "D:\\andriodWebRTC\\webrtc1112-groupchating\\app\\src\\main\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "D:\\andriodWebRTC\\webrtc1112-groupchating\\app\\build\\intermediates\\res\\merged\\debug\\raw\\outgoing.ogg",
+        "source": "D:\\andriodWebRTC\\webrtc1112-groupchating\\app\\src\\main\\res\\raw\\outgoing.ogg"
+    }
+]

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.webrtc.activity.GifOverLayout">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2E3132"
+        android:id="@+id/relativeLayoutContainer"
+        android:layout_centerInParent="true">
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/removeContainers"
+        android:id="@+id/addContainers"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/addImage"
+            android:text="添加图片"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="24dp"
+            android:id="@+id/addGifOverImage"
+            android:text="添加动画"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="24dp"
+            android:id="@+id/addSurface"
+            android:text="添加视频"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/removeContainers"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="24dp"
+            android:id="@+id/removeImage"
+            android:text="移除图片"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="24dp"
+            android:id="@+id/removeGifOverImage"
+            android:text="移除动画"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="24dp"
+            android:id="@+id/removeSurface"
+            android:text="移除视频"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

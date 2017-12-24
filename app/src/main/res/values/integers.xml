@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="aRxPortDefault">11113</integer>
+    <integer name="aTxPortDefault">11113</integer>
+    <integer name="openGl">0</integer>
+    <integer name="surfaceView">1</integer>
+    <integer name="mediaCodec">2</integer>
+    <integer name="defaultView">0</integer>
+    <integer name="call_restart_periodicity_ms">0</integer>
+    <integer name="video_codec_default">0</integer>
+    <integer name="video_resolution_default">3</integer>
+    <integer name="video_rtcp_mode_default">0</integer>
+    <integer name="vRxPortDefault">11111</integer>
+    <integer name="vTxPortDefault">11111</integer>
+    <integer name="min_audio_record_dir_MB">50</integer>
+    <integer name="client_video_exchange_port_default">4004</integer>
+    <integer name="client_audio_exchange_port_default">4006</integer>
+    <integer name="webrtc_video_recv_port_default">11111</integer>
+    <integer name="webrtc_audio_recv_port_default">11113</integer>
+    <integer name="outgoing_call_timeout">20000</integer>
+</resources>

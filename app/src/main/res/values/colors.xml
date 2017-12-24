@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="bar_color">#232325</color>
+
+    <color name="common_top_bar_blue">#22292c</color>
+
+    <color name="greeny">#ff11aca6</color>
+    <color name="black2">#ffeeeeee</color>
+
+    <color name="windows_color">#F5F5F5</color>
+    <color name="btn_gray_pressed_status">#b5b5b6</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="home_bar_text_normal">#6a6c6f</color>
+    <color name="home_bar_text_push">#ff5959</color>
+    <color name="textnormal">#adadad</color>
+
+    <color name="btn_bg_pressed_color">#ffacac</color>
+    <color name="btn_bg_color">#ff5959</color>
+
+    <color name="border_line">#ffeeeeee</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="black1">#7A7E83</color>
+    <color name="half_alpha_black">#7f000000</color>
+    <color name="blue">#ffccddff</color>
+    <color name="red">#ffff0101</color>
+    <color name="grey">#ff58616d</color>
+    <color name="darkgrey">#ff404040</color>
+    <color name="toasterro">#ff9fd524</color>
+    <color name="lightgrey">#ff888888</color>
+    <color name="light_grey">#ffe0e0e0</color>
+    <color name="semitransparent">#80000000</color>
+    <color name="lightransparent">#a0000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="navpage">#ffe1e0de</color>
+    <color name="dark_bg_color">#ff1d1d1d</color>
+    <color name="conatct_info_weibo_link_color">#ff385486</color>
+    <color name="conatct_info_summary_color">#ff000000</color>
+    <color name="qrcode_info_text_gb_white">#1affffff</color>
+    <color name="ChattingSenderTextColor">#ff081c52</color>
+    <color name="ConversationVoiceTextColor">#ff339900</color>
+    <color name="shake_tran_img_bg">#ff404040</color>
+    <color name="shake_tran_img_tip">#ff757575</color>
+    <color name="shake_share_tip">#ffa5a5a5</color>
+    <color name="shake_tran_img_listitem_gb">#ff292929</color>
+    <color name="shake_info_text">#ffa1a1a1</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="chatting_bg_purecolor">#ffcbe5f2</color>
+    <color name="plugin_mail_grey">#ff909090</color>
+    <color name="sns_black_list_grey">#ff343434</color>
+    <color name="plugin_readerapp_header_color_news">#ff91cd1a</color>
+    <color name="plugin_readerapp_header_color_weibo">#ff529fff</color>
+    <color name="add_state_color_added">#ff8daebf</color>
+    <color name="add_state_color_waiting">#b3b3b3</color>
+    <color name="add_btn_text_color">#ff469f04</color>
+    <color name="invite_btn_text_color">#ff04539c</color>
+    <color name="sns_loading_img">#ffeeeeee</color>
+    <color name="with_username">#ffffffff</color>
+    <color name="sns_link_color">#ff576b95</color>
+    <color name="sns_link_bg_color">#ffcccac6</color>
+    <color name="sns_line">#ff323232</color>
+    <color name="sns_upload_text_normal">#ff999999</color>
+    <color name="sns_upload_text_select">#ff323232</color>
+    <color name="sns_word_color">#ff737373</color>
+    <color name="sns_upload_word_color">#ff272727</color>
+    <color name="sns_comment_color">#ff454545</color>
+    <color name="sns_bg_color">#fff8f8f8</color>
+    <color name="sns_artist_bg">#ffb3b3b3</color>
+    <color name="sns_sign">#ff000000</color>
+    <color name="sns_like_color">#ff8a8a8a</color>
+    <color name="sns_detail_pressed_bg">#ffb6da53</color>
+    <color name="sns_detail_normal_bg">#ffebeeee</color>
+    <color name="sns_artist_desc">#ffb3b3b3</color>
+    <color name="sns_artist_background">#ff292929</color>
+    <color name="readerapp_item_date_color">#ff8c8c8c</color>
+    <color name="readerapp_item_content_color">#ff2c2c2c</color>
+    <color name="readerapp_item_time_color">#88909090</color>
+    <color name="readerapp_item_divider_color">#aa9a9a9a</color>
+    <color name="default_background_color">#fff3f1da</color>
+    <color name="chat_card_seperator_color">#e8eaec</color>
+    <color name="media_explorer_bg_color">#ff363636</color>
+    <color name="general_background_color">#ff282b2d</color>
+    <color name="general_sub_background_color">#ffbab9b5</color>
+    <color name="sns_dialog_transparent">#f0000000</color>
+    <color name="sns_upload_dialog_transparent">#80000000</color>
+    <color name="voip_translucent_background">#b8000000</color>
+    <color name="voip_voice_bg_color">#ff303435</color>
+    <color name="voip_invite_message_color">#ff454545</color>
+    <color name="voip_tip_color">#66ffffff</color>
+    <color name="voip_tip_bg_color">#88000000</color>
+    <color name="voip_talk_bg_color">#ff404040</color>
+    <color name="web_wei_xin_login_bg_color">#ff434d5a</color>
+    <color name="mass_send_message_title">#ff454545</color>
+    <color name="voice_search_bar_bg_color">#cc000000</color>
+    <color name="voice_search_tip_color">#ffb3b3b3</color>
+    <color name="account_info_email_warn_color">#ff707070</color>
+    <color name="network_diagnose_bg">#ff393c41</color>
+    <color name="network_diagnose_hint">#ffd2d6de</color>
+    <color name="network_diagnose_status">#ff757575</color>
+
+    <color name="btn_blue_normal">#1e90ff</color>
+    <color name="btn_blue_pressed">#0066FF</color>
+    <color name="btn_logout_pressed">#DA5A4D</color>
+    <color name="btn_register_normal">#2dafa3</color>
+
+    <color name="btn_login_normal">#007086</color>
+    <color name="btn_login_pressed">#303744</color>
+    <color name="btn_logout_normal">#d33f3f</color>
+
+    <color name="btn_register_pressed">#4ebcd3</color>
+    <color name="common_bottom_bar_normal_bg">#2d2f31</color>
+    <color name="common_bottom_bar_selected_bg">#161718</color>
+    <color name="common_botton_bar_blue">#2ea7e0</color>
+    <color name="common_bg">#fcfcfc</color>
+    <color name="btn_pressed_green_solid">#B6DA53</color>
+    <color name="divider_list">#cccccc</color>
+    <color name="top_bar_normal_bg">#4ebcd3</color>
+    <color name="error_item_color">#F6EBE6</color>
+    <color name="bottom_bar_normal_bg">#2D2F31</color>
+    <color name="bottom_text_color_normal">#ffffff</color>
+    <color name="btn_white_normal">#f7f8f8</color>
+    <color name="btn_white_pressed">#b5b5b6</color>
+    <color name="btn_green_noraml">#68C270</color>
+    <color name="btn_green_pressed">#6fcd78</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+
+    <color name="btn_gray_pressed">#666667</color>
+
+    <color name="orange">#FFA500</color>
+    <color name="gray_pressed">#b5b5b6</color>
+    <color name="gray_normal">#666667</color>
+    <color name="grid_state_pressed">#1Affffff</color>
+    <color name="grid_state_focused">#80000000</color>
+
+    <color name="voip_interface_text_color">#bababa</color>
+    <color name="black_deep">#FF000000</color>
+
+
+    <!-- 白色 -->
+    <!-- 透明 -->
+    <color name="transparent2">#50000000</color>
+    <!--窗体颜色 -->
+    <color name="popbg_color">#49484A</color>
+
+    <color name="light_notes_color">#ff999999</color>
+    <color name="link_color">#ff4abad7</color>
+    <color name="font_value">#ff888271</color>
+    <color name="khbf_list_white">#fff8f8f8</color>
+    <color name="title_white">#fff7f7f7</color>
+    <color name="deep_black">#ff000000</color>
+    <color name="blacky">#ff000000</color>
+    <color name="blackk1">#ff7c8081</color>
+    <color name="blackk">#ffe6e6e6</color>
+
+    <color name="blue0">#ff88c1e8</color>
+    <color name="black3">#fff7f7f7</color>
+    <color name="black4">#ffeaeaea</color>
+    <color name="white_blue">#ff99ccff</color>
+    <color name="white_gray">#ffcccc99</color>
+    <color name="qjjl_top">#ffffffcc</color>
+    <color name="red1">#ffe36c09</color>
+    <color name="red3">#ffc0504d</color>
+    <color name="orange1">#ffff7d27</color>
+    <color name="orange2">#ffd75702</color>
+    <color name="orange4">#ffa57d3e</color>
+    <color name="darkgreen">#ff336666</color>
+    <color name="login">#ff333333</color>
+    <color name="gray_white">#fff7f7f7</color>
+    <color name="blue6">#ff71c7d4</color>
+    <color name="gray_black">#ff525252</color>
+    <color name="gray_back">#ff473e26</color>
+    <color name="main_bgcolor">#ffffffff</color>
+    <color name="list_bg1">#fff7f8fa</color>
+    <color name="list_bg0">#fff5f5f5</color>
+    <color name="list_bg2">#ffffffff</color>
+    <color name="list_bg3">#ffffcccc</color>
+    <color name="list_pressed">#ffa0a0a3</color>
+    <color name="title_back">#ff293852</color>
+
+    <color name="orange3">#ffffd1b3</color>
+    <color name="notice_detail_pressedc">#ff99cccc</color>
+    <color name="white_blue_selected">#ffb1daff</color>
+    <color name="product_list_tab_color">#ff87888c</color>
+    <color name="product_list_tab_select_color">#ff333333</color>
+    <color name="product_list_bg_color">#ffcccccc</color>
+    <color name="pink">#fffedbf5</color>
+    <color name="lightblue">#ffe0eeff</color>
+    <color name="gray1">#ffefefef</color>
+    <color name="grey2">#EAEBEA</color>
+    <color name="window_bg">#ffeef1f3</color>
+    <color name="qqblue">#ff54acea</color>
+    <color name="green1">#ff76923c</color>
+    <color name="greenn">#ff96cf99</color>
+    <color name="blue2">#ff31859b</color>
+    <color name="red4">#ff953734</color>
+    <color name="blue1">#ff00a4e8</color>
+    <color name="red2">#fff79646</color>
+    <color name="red0">#ffb7393a</color>
+    <color name="pur">#ff7030a0</color>
+    <color name="color_divider">#ffc9c9c9</color>
+    <color name="c1">#ffcca266</color>
+    <color name="c2">#ffc466cc</color>
+    <color name="c3">#ff31abea</color>
+    <color name="c4">#ff8ec31f</color>
+    <color name="c5">#ffff6cad</color>
+    <color name="c6">#ff8acc66</color>
+    <color name="c7">#ff448aca</color>
+    <color name="red6">#ffee5759</color>
+    <color name="calendar_background">#ff000000</color>
+    <color name="recordremind_background">#ffffffff</color>
+    <color name="border_color">#ffffffff</color>
+    <color name="weekname_color">#ffffffff</color>
+    <color name="day_color">#ffffffff</color>
+    <color name="inner_grid_color">#ffffffff</color>
+    <color name="prev_next_month_day_color">#ff999999</color>
+    <color name="text_color">#ffffff00</color>
+    <color name="recordremindtext_color">#ff000000</color>
+    <color name="current_day_color">#ffff0000</color>
+    <color name="today_background_color">#ffff0000</color>
+    <color name="today_color">#ffffffff</color>
+    <color name="sunday_saturday_color">#ffff0000</color>
+    <color name="sunday_saturday_prev_next_month_day_color">#ff990000</color>
+    <color name="bgcolor">#ffffffff</color>
+    <color name="txtcolor">#ff000000</color>
+    <color name="Calendar_WeekBgColor">#ffefe7de</color>
+    <color name="Calendar_WeekFontColor">#ff8c8a8c</color>
+    <color name="Calendar_DayBgColor">#f7f7f7</color>
+    <color name="isHoliday_BgColor">#ffe0e0e0</color>
+    <color name="unPresentMonth_FontColor">#ff8c8a8c</color>
+    <color name="isPresentMonth_FontColor">#ff000000</color>
+    <color name="isToday_BgColor">#ffebdcc1</color>
+    <color name="specialReminder">#ffff0000</color>
+    <color name="commonReminder">#ffbdbab5</color>
+    <color name="gray">#ff808080</color>
+    <color name="gray2">#ffeef2fb</color>
+</resources>

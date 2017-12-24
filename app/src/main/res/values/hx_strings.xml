@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="call_duration">通话时长</string>
+    <string name="BeRefused">对方已拒绝您的聊天请求</string>
+    <string name="Refused">您已拒绝对方的聊天请求</string>
+    <string name="Canceled">对方已取消与您的聊天请求</string>
+    <string name="The_other_party_has_refused_to">[对方已拒绝]</string>
+    <string name="The_other_is_not_online">[对方不在线]</string>
+    <string name="The_other_is_on_the_phone">[对方正在通话中]</string>
+    <string name="The_other_party_did_not_answer">[对方未接听]</string>
+    <string name="did_not_answer">[未接听]</string>
+    <string name="Has_been_cancelled">[已取消]</string>
+    <string name="videoCallIncoming">邀请你进行视频聊天...</string>
+    <string name="audioCallIncoming">邀请你进行语音聊天...</string>
+    <string name="audioCallOutgoing">正在呼叫中...</string>
+    <string name="headsetPluggedInToast">请用听筒接听</string>
+    <string name="videoCallOutgoing">正在等待对方接受邀请...</string>
+    <string name="CallEstablishing">正在建立连接...</string>
+    <string name="audioCallToast">连接已建立，请用听筒接听</string>
+    <string name="videoSwitchAudioToast">对方已切到语音聊天，请用听筒接听</string>
+    <string name="videocall_getuserinfo_fail">未获取到通话人信息</string>
+    <string name="videocall_downloadavatar_fail">下载通话人头像失败</string>
+    <string name="cancel_invitevideocall_toast">您已取消视频聊天</string>
+    <string name="cancel_invitevoicecall_toast">您已取消音频聊天</string>
+    <string name="drop_videocall_toast">视频聊天已结束</string>
+    <string name="drop_voicecall_toast">音频聊天已结束</string>
+    <string name="trunkServer_connection_fail_toast">TrunkServer连通失败，请检查网络</string>
+    <string name="trunkServer_connection_fail_toast2">TrunkServer连通失败，通话已拒绝</string>
+    <string name="outgoing_call_timeout_toast">对方手机可能不在身边，建议稍后再次尝试</string>
+</resources>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="video_capture_module_java">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/video_capture_module_java.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

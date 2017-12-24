@@ -1,0 +1,151 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MMListItem">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MMFontTitleInList">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ff595c61</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <!-- 右上角popupwindow -->
+    <style name="AnimationPreview">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+    <!--XML样式参数
+           apTabIndicatorColor 导航条的颜色
+           apTabUnderlineColor Tab底部下划线的颜色
+           apTabDividerColor 每个Tab之间的分割线颜色
+           apTabstabTextSelectColor 被选中的Tab的文本字体颜色
+           apTabIndicatorHeight 导航条的高度
+           apTabUnderlineHeight Tab底部下划线的高度
+           apTabDividerPadding Tab分割线的padding
+           apTabPaddingLeftRight 每个Tab的左右padding
+           apTabPaddingTopBottom 每个Tab的上下padding
+           apTabScrollOffset 选中tab的滑动offset
+           apTabBackground tab的背景
+           apTabShouldExpand 伸缩情况，如果为真，每个tab都是相同的weight，默认是false
+           apTabTextAllCaps Tab的文字是否为全部大写，如果是true就全部大写，默认为true
+           apTabTextSelectColor 你所选择的那个tab的颜色
+           apTabDrawMode 绘制模式，text或者normal，用于是否将下划线绘制为跟随TextView-->
+
+    <style name="pagertab_icon_style">   <!--  apTabBackground = tab_bg_transparent 底部下划线可见-->
+        <item name="android:background">@drawable/tab_bg_normal</item>
+        <item name="apTabBackground">@drawable/tab_bg_normal</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@drawable/tab_color_select</item>
+        <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>
+        <item name="apTabIndicatorColor">@color/home_bar_text_push</item>
+        <item name="apTabUnderlineColor">#1A000000</item>
+        <item name="apTabDividerColor">#00000000</item>
+        <item name="apTabShouldExpand">false</item>
+        <item name="apTabPaddingLeftRight">8dp</item>
+        <item name="apTabPaddingTopBottom">3dp</item>
+        <item name="apTabTextSelectColor">@color/home_bar_text_push</item>
+    </style>
+
+    <!--设置字体-->
+    <style name="CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <!-- 标题1样式 -->
+    <style name="txt_titleStyle1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- 图片样式 -->
+    <style name="img_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:contentDescription">@string/app_name</item>
+    </style>
+
+    <style name="TxtTitle" parent="@style/img_Style">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+        <!--<item name="android:paddingLeft">6.0dip</item>-->
+        <!--<item name="android:paddingRight">6.0dip</item>-->
+        <item name="android:focusable">false</item>
+    </style>
+
+    <style name="greyText">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#a3a1a1</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+    <style name="editText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- 内容1样式 -->
+    <style name="txt_ContextStyle1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- 通知栏样式 -->
+    <style name="NotificationText" parent="android:TextAppearance.StatusBar.EventContent" />
+
+    <style name="NotificationTitle" parent="android:TextAppearance.StatusBar.EventContent.Title" />
+
+    <!--pager tab-->
+    <style name="pagertab_normal_style">
+        <item name="android:background">@drawable/tab_bg_normal</item>
+        <item name="apTabBackground">@drawable/tab_bg_transparent</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>
+        <item name="android:textColor">@drawable/tab_color_select</item>
+        <item name="apTabIndicatorColor">@color/home_bar_text_push</item>
+        <item name="apTabUnderlineColor">#1A000000</item>
+        <item name="apTabDividerColor">#00000000</item>
+        <item name="apTabShouldExpand">false</item>
+        <item name="apTabPaddingLeftRight">8dp</item>
+        <item name="apTabDrawMode">text</item>
+        <item name="apTabTextSelectColor">@color/home_bar_text_push</item>
+    </style>
+
+    <style name="groupChatText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
